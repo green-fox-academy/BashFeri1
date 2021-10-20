@@ -10,7 +10,7 @@ public class Reverse {
 // - Írasd ki a konzolra a `numbers` tömb megfordított sorrendű elemeit
         int[] numbers = new int[] {4, 5, 6, 7};
 
-        int[] numbersReversed = new int[numbers.length];
+        int[] numbersReversed = new int[numbers.length-1];
 
         for (int i = numbers.length-1; i>=0; i--) {
             int indexOfReversed = numbers.length-1-i;
