@@ -4,7 +4,20 @@ import java.util.Scanner;
 
 public class DrawDiamond {
     public static void main(String[] args) {
-
+        // Írj egy programot, ami egy számot kér a standard input-ból és egy
+// ilyen rombuszt rajzol:
+//
+//
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *
+//
+// A rombusznak annyi sora legyen,
+// mint amennyi az inputból kiolvasott szám értéke
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Please type the number of rows for diamond: ");

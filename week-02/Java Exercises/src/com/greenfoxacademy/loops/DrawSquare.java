@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class DrawSquare {
     public static void main(String[] args) {
+        // Írj egy programot, ami egy számot kér a standard input-ból és egy
+// ilyen négyzetet rajzol:
+//
+//
+// %%%%%%
+// %    %
+// %    %
+// %    %
+// %    %
+// %%%%%%
+//
+// A négyzetnek annyi sora legyen,
+// mint amennyi az inputból kiolvasott szám értéke
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Type number of rows for square size: ");

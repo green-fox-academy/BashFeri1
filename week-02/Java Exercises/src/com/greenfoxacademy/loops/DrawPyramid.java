@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 public class DrawPyramid {
     public static void main(String[] args) {
+        // Írj egy programot, ami egy számot kér a standard input-ból és egy
+// ilyen piramist rajzol:
+//
+//
+//    *
+//   ***
+//  *****
+// *******
+//
+// A piramisnak annyi sora legyen,
+// mint amennyi az inputból kiolvasott szám értéke
         Scanner reader = new Scanner(System.in);
         System.out.print("How many tall should the pyramid be: ");
         int lineCount = reader.nextInt();

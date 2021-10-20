@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class MileToKMConverter {
     public static void main(String[] args) {
+        // Írj egy olyan programot, ami egy számot (használj double-t) kér
+        // felhasználói inputként és az a szám a távolságot jelenti mérföldben,
+        // majd ezt átszámítja és kiírja a távolságot kilométerben
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Please enter distance in miles: ");

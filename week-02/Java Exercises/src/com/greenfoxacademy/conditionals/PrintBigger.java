@@ -3,6 +3,8 @@ package com.greenfoxacademy.conditionals;
 import java.util.Scanner;
 
 public class PrintBigger {
+    // Írj egy programot, ami két számot kér a standard input-ból
+    // és kiírja a nagyobbat
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
