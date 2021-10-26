@@ -1,3 +1,5 @@
+package String;
+
 public class TodoPrint {
     public static void main(String[] args) {
         String todoText = " - Buy milk\n";
